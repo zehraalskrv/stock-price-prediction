@@ -42,22 +42,22 @@ Both models are implemented using **PyTorch** and trained on time-series stock d
 ### 🔹 LSTM – Close Price Prediction
 ![LSTM Close](images/lstm_close.png)
 
----
+--- RMSE: **8.08**
 
 ### 🔹 GRU – Close Price Prediction
 ![GRU Close](images/gru_close.png)
 
----
+--- RMSE: **3.97**
 
 ### 🔹 LSTM – Close + EMA + RSI
-![LSTM EMA RSI](images/lstm_ema_rsi.png)
+![LSTM EMA RSI](images/lstm_close_ema_rsi.png)
 
 - RMSE: **4.54**
 
 ---
 
 ### 🔹 GRU – Close + EMA + RSI
-![GRU EMA RSI](images/gru_ema_rsi.png)
+![GRU EMA RSI](images/gru_close_ema_rsi.png)
 
 - RMSE: **3.62**
 
